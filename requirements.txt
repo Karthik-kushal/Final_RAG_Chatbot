@@ -5,3 +5,4 @@ groq==1.4.0
 chromadb==1.5.9
 pydantic==2.12.5
 requests==2.32.5
+sentence-transformers==5.6.0
