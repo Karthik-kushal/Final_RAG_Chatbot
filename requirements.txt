@@ -10,15 +10,8 @@ groq==1.4.0
 # Vector Database
 chromadb==1.5.9
 
-# Embeddings
-sentence-transformers==5.6.0
-
-# Deep Learning (compatible versions with pre-built wheels)
-torch==2.0.1
-torchvision==0.15.2
+# Embeddings (lightweight version)
+sentence-transformers==2.2.2
 
 # PDF Processing
 pypdf==4.0.1
-
-# Image Processing
-Pillow==10.0.0
