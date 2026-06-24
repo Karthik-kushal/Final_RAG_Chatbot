@@ -3,11 +3,3 @@ libxext6
 libxrender-dev
 libgomp1
 zlib1g
-zlib1g-dev
-libjpeg-dev
-libtiff-dev
-libfreetype6-dev
-liblcms2-dev
-libwebp-dev
-libharfbuzz0b
-libfribidi0
