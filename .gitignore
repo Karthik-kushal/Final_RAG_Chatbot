@@ -1,13 +1,45 @@
-node_modules/
+# Environment variables
 .env
 .env.local
-.DS_Store
-*.pyc
+.env*.local
+
+# Python
 __pycache__/
-.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
 venv/
-chroma_db/
-*.db
-.vscode/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
 dist/
 build/
+.eggs/
+
+# Vector Database
+chroma_db/
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+server.log
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
